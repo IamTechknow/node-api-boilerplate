@@ -1,0 +1,25 @@
+{
+  "name": "api_boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "debug": "nodemon --inspect server",
+    "seed": "node server/seed.js",
+    "start": "node server",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "eslint": "^7.21.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "sinon": "^9.2.4"
+  }
+}
