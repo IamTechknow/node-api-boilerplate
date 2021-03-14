@@ -1,6 +1,6 @@
 const mysql = require('mysql2/promise');
 
-const DATABASE = 'database';
+const DATABASE = 'db';
 
 // Requires database password set in environment variable
 const getDB = () => mysql.createConnection({
