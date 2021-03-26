@@ -5,7 +5,7 @@ const DATABASE = 'db';
 // Requires database password set in environment variable
 const getDB = () => mysql.createConnection({
   host: 'localhost',
-  user: 'root',
+  user: process.env.DB_USERNAME || 'root',
   password: process.env.DB_PASSWORD || '',
   multipleStatements: true,
 }).then((db) =>
