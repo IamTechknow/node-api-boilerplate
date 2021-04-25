@@ -5,12 +5,6 @@ const { getDB } = require('../models');
 const DATABASE = 'db';
 const TABLE = 'myTable';
 
-// Form MySQL statements to create database and tables here.
-// Please be mindful about using keywords and reserved words
-const createSchema = (db) => {
-
-};
-
 const seedFile = async (filePath) => {
 
 };
